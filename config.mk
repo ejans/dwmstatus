@@ -1,4 +1,5 @@
-NAME = dwmstatus
+#NAME = dwmstatus
+NAME = dwmstatus-netusage
 VERSION = 1.2
 
 # Customize below to fit your system
