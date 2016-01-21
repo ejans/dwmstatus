@@ -343,8 +343,8 @@ main(void)
 	}
 
 	parse_netdev(&rec, &sent);
-	for (;;sleep(1)) {
-		//for (;;sleep(2)) {
+	//for (;;sleep(1)) {
+	for (;;sleep(2)) {
 		avgs = loadavg();
 		cpu = getcpu();
 		mem = getmem();
